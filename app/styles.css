@@ -1,0 +1,74 @@
+header nav div {
+  background-color: red;
+  padding: 60px;
+  font-size: 60px;
+}
+.esquerda {
+  float: left;
+}
+.direita {
+  float: right;
+}
+
+main {
+  padding-top: 290px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.card {
+  border: 1px solid gray;
+  width: 94vw;
+}
+
+.conteudo {
+  padding: 20px;
+}
+
+.cabecalho {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.titulo {
+  font-size: 80px;
+}
+
+.preco {
+  font-size: 60px;
+}
+
+.description {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: justify;
+  font-size: 48px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+
+.acoes {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.botao {
+  background-color: green;
+  min-width: 800px;
+  border-radius: 9px;
+  padding: 8px 0px;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+  font-size: 48px;
+}
