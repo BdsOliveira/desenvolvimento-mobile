@@ -1,0 +1,82 @@
+@media (min-width: 769px) {
+  header {
+    background-color: #cccccc;
+    padding: 30px 20px;
+    font-size: 36px;
+  }
+
+  .margem-do-topo {
+    margin-top: -20px;
+  }
+  .esquerda {
+    float: left;
+  }
+  .direita {
+    float: right;
+  }
+
+  .imagem {
+    width: 450px;
+  }
+
+  main {
+    padding-top: 32px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    border: 1px solid gray;
+    max-width: 550px;
+  }
+
+  .conteudo {
+    padding: 20px;
+  }
+
+  .cabecalho {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .titulo {
+    font-size: 32px;
+  }
+
+  .preco {
+    font-size: 28px;
+  }
+
+  .description {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 22px;
+  }
+
+  a {
+    text-decoration: underline;
+    color: black;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 22px;
+  }
+
+  .acoes {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .botao {
+    background-color: green;
+    min-width: 100%;
+    border-radius: 9px;
+    padding: 8px 0px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+}
+
