@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  display: flex;
+  padding: 28px 0px;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .imagem_banner {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .imagem_banner {
+    width: 50%;
+  }
+}
+
+.imagem_banner {
+    border-radius: 12px;
+}
