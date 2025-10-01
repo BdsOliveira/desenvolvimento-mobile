@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  .navbar {
+    background-color: #008cff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .carrinho {
+    width: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    background-color: #008cff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  .carrinho {
+    width: 70px;
+  }
+}
