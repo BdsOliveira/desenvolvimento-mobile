@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+.container-imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem {
+    width: 80%;
+    padding: 20px;
+}
