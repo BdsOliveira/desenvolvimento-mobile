@@ -1,0 +1,44 @@
+.imagem_banner {
+  border-radius: 12px;
+}
+
+.produtos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.produto {
+  background-color: #cce8ff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  margin: 16px;
+  width: 35%;
+}
+
+.produto_imagem {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.produto_titulo {
+}
+
+.produto_preco {
+}
+
+.produto_botao_link {
+  text-decoration: none;
+  color: white;
+}
+
+.produto_botao {
+  text-align: center;
+  background-color: #008cff;
+  margin: 10px 10px;
+  padding: 6px 0px;
+  border-radius: 12px;
+}
