@@ -1,6 +1,50 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-tamanho-14 {
+  font-size: 14px;
+}
+
+.font-tamanho-16 {
+  font-size: 16px;
+}
+
+.font-tamanho-18 {
+  font-size: 18px;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .banner {
@@ -22,5 +66,46 @@
 }
 
 .imagem_banner {
-    border-radius: 12px;
+  border-radius: 12px;
+}
+
+.produtos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.produto {
+  background-color: #cce8ff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  margin: 16px;
+  width: 35%;
+}
+
+.produto_imagem {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.produto_titulo {
+}
+
+.produto_preco {
+}
+
+.produto_botao_link {
+  text-decoration: none;
+  color: white;
+}
+
+.produto_botao {
+  text-align: center;
+  background-color: #008cff;
+  margin: 10px 10px;
+  padding: 6px 0px;
+  border-radius: 12px;
 }
