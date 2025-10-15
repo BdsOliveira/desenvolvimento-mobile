@@ -29,6 +29,18 @@
   font-size: 18px;
 }
 
+.font-tamanho-20 {
+  font-size: 20px;
+}
+
+.font-tamanho-24 {
+  font-size: 24px;
+}
+
+.font-tamanho-28 {
+  font-size: 28px;
+}
+
 .poppins-medium {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -63,4 +75,17 @@
   .imagem_banner {
     width: 50%;
   }
+}
+
+.botao_comprar {
+    background-color: #008CFF;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px 0px;
+    text-transform: uppercase;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
