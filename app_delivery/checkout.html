@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <title>Delivery de Água</title>
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/checkout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Início da Navbar -->
+    <div class="navbar">
+      <div>
+        <a href="index.html">
+          <img class="logo" src="assets/images/Logo.png" />
+        </a>
+      </div>
+      <div>
+        <img class="carrinho" src="assets/images/Carrinho.png" />
+      </div>
+    </div>
+    <!-- Fim da Navbar -->
+
+    <main>
+      <div class="resumo">
+        <div class="cor-texto-resumo font-tamanho-18">
+          <div class="subtotal linha">
+            <div class="">Subtotal</div>
+            <div class="">R$ 12,00</div>
+          </div>
+          <div class="taxa-entrega linha">
+            <div class="">Taxa de entrega</div>
+            <div class="">R$ 5,00</div>
+          </div>
+        </div>
+        <div class="total linha poppins-semibold font-tamanho-28">
+          <div class="">Total</div>
+          <div class="">R$ 17,00</div>
+        </div>
+      </div>
+
+      <div class="formulario">
+        <form>
+          <div class="item-input">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" />
+          </div>
+
+          <fieldset>
+            <legend class="poppins-bold font-tamanho-18">Informe o seu endereço</legend>
+            <div class="item-input">
+              <label for="logradouro">Rua/Logradouro</label>
+              <input type="text" id="logradouro" />
+            </div>
+
+            <div class="grupo-input">
+              <div class="item-input">
+                <label for="numero">Número</label>
+                <input type="text" id="numero" />
+              </div>
+              <div class="item-input">
+                <label for="cep">cep</label>
+                <input type="text" id="cep" />
+              </div>
+            </div>
+
+            <div class="item-input">
+              <label for="complemento">Complemento</label>
+              <input type="text" id="complemento" />
+            </div>
+
+            <div class="item-input">
+              <label for="bairro">Bairro</label>
+              <input type="text" id="bairro" />
+            </div>
+          </fieldset>
+
+          <div class="item-input">
+            <label for="forma-pagamento">Forma de Pagamento</label>
+            <select id="forma-pagamento">
+              <option value="---">Selecione a forma de pagamento</option>
+              <option value="pix">Pix</option>
+              <option value="dinheiro">Dinheiro</option>
+              <option value="cartao">Cartão</option>
+            </select>
+          </div>
+          <!-- não iremos submeter o formulário -->
+        </form>
+        <a href="https://web.whatsapp.com/send?phone=5586998063078&text=*Novo%20pedido*%20Cliente%3A%20John%20Doe%20Itens%20do%20pedido%3A%201.%20Garaf%C3%A3o%20de%20%C3%81gua%20mineral%20de%2020L%20Dados%20de%20entrega%3A%20Rua%3A%20Rua%20dos%20c%C3%B3digos%2C%20n%C2%BA%20999%20Ao%20lado%20do%20servidor.%20%20*Valor%3A*%20R%24%2017%2C00%20Forma%20de%20Pagamento%3A%20PIX">
+          <div class="botao_comprar poppins-bold font-tamanho-20 web">
+            Finalizar Compra (WEB)
+          </div>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=5586998063078&text=*Novo%20pedido*%20Cliente%3A%20John%20Doe%20Itens%20do%20pedido%3A%201.%20Garaf%C3%A3o%20de%20%C3%81gua%20mineral%20de%2020L%20Dados%20de%20entrega%3A%20Rua%3A%20Rua%20dos%20c%C3%B3digos%2C%20n%C2%BA%20999%20Ao%20lado%20do%20servidor.%20%20*Valor%3A*%20R%24%2017%2C00%20Forma%20de%20Pagamento%3A%20PIX">
+          <div class="botao_comprar poppins-bold font-tamanho-20 mobile">
+            Finalizar Compra (API)
+          </div>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
