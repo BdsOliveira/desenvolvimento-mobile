@@ -1,0 +1,80 @@
+main {
+  padding: 20px;
+}
+
+.resumo {
+  background-color: #a87d3b;
+  border-radius: 12px;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20%;
+}
+
+.linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cor-texto-resumo {
+  color: #cce8ff;
+}
+
+.total {
+  color: white;
+}
+
+.subtotal {
+  margin-bottom: 10px;
+}
+
+input {
+  border-radius: 8px;
+  padding: 8px;
+  margin: 4px 0px;
+  border: solid 1px lightgray;
+}
+
+select {
+    border-radius: 8px;
+    padding: 8px;
+    margin: 4px 0px;
+    border: solid 1px lightgray;
+}
+
+fieldset {
+    border: 0px;
+}
+
+form {
+    margin: 24px 0px;
+}
+
+legend {
+    margin: 12px 0px;
+}
+
+.grupo-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item-input {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .mobile {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 767px) {
+    .web {
+        visibility: hidden;
+    }
+}
