@@ -89,3 +89,18 @@
 a {
     text-decoration: none;
 }
+
+#btnAdd {
+    /* position: fixed; */
+    /* bottom: 20px; */
+    /* right: 20px; */
+    /* padding: 10px 20px; */
+    background-color: #008CFF;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
