@@ -1,0 +1,22 @@
+{
+    "name": "Delivery de Água Mineral na sua Casa",
+    "short_name": "Delivery de Água",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0000ff",
+    "icons": [
+        {
+            "src": "assets/images/AppIcons/Assets.xcassets/AppIcon.appiconset/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/images/AppIcons/Assets.xcassets/AppIcon.appiconset/196.png",
+            "sizes": "196x196",
+            "type": "image/png"
+        }
+    ],
+    "description": "Aplicativo para delivery de água mineral.",
+    "orientation": "portrait-primary"
+}
